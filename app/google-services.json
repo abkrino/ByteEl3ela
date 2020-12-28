@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228399148287",
+    "project_id": "byteel3ela-d1bc0",
+    "storage_bucket": "byteel3ela-d1bc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228399148287:android:e614f41c8acba11a6f30ca",
+        "android_client_info": {
+          "package_name": "com.example.byteel3ela"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228399148287-9o217hvfnt3hhslhf282pj8njc2kchpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh245plllB8aQXL8nBid1E1e0COIMynPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228399148287-9o217hvfnt3hhslhf282pj8njc2kchpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

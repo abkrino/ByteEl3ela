@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Byte El3ela</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title"> maikel_eng@yahoo.com</string>
+    <string name="nav_header_subtitle">01201265116</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_internet">Internet</string>
+    <string name="menu_OurSite">Our site</string>
+    <string name="menu_DanielHome">Daniel Home</string>
+    <string name="menu_demyanaHome">demyana Home</string>
+    <string name="menu_byteEl3ela">byte el3ela</string>
+    <string name="fcm_message">fcm_message</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tsb">13pt</dimen>
+    <dimen name="tstt">15pt</dimen>
+    <dimen name="tvm">10pt</dimen>
+</resources>

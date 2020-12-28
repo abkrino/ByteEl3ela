@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tbs">14pt</dimen>
+    <dimen name="tts">16pt</dimen>
+</resources>
