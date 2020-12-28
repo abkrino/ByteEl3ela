@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     String title;
     String body;
     String time;
-    String result;
+    String resultString;
     Calendar calendar = Calendar.getInstance();
     SimpleDateFormat format = new SimpleDateFormat("EEEE , dd-MMM-yyyy , hh:mm:ss  a");
     private AppBarConfiguration mAppBarConfiguration;
@@ -63,11 +63,11 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 title = snapshot.child("title").getValue().toString();
                 body = snapshot.child("body").getValue().toString();
-                result = snapshot.child("switch").getValue().toString();
+                resultString = snapshot.child("switch").getValue().toString();
                 insertOnDataBase();
 
                 //notificationsــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-                switch (result) {
+                switch (resultString) {
                     case "off":
                         break;
                     case "on":
@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
                                 .setStyle(new Notification.BigTextStyle().bigText(body))
                                 .setContentText(body).build();
                         notificationManager.notify(1, notification);
+                        resultString = "off";
                         //notificationsــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
                         break;
                 }
@@ -151,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void insertOnDataBase() {
-        switch (result) {
+        switch (resultString) {
             case "off":
                 break;
             case "on":
@@ -167,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 }
 
-
+                
         }
     }
 }
